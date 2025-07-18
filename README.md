@@ -1,12 +1,36 @@
-# React + Vite
+# 🛒 TalentoTech eCommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es el resultado final del curso de Talento Tech y consiste en un eCommerce completo, funcional y optimizado. Se desarrolló utilizando **React**, **Context API**, **MockAPI**, **React Router**, entre otras tecnologías modernas del ecosistema frontend.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🛍️ Gestión del Carrito y Autenticación
+- Sistema de autenticación con `localStorage` (simulado).
+- Rutas protegidas para usuarios autenticados.
+- Carrito de compras persistente y global gracias a Context API.
+- Funciones para agregar, eliminar y vaciar productos del carrito.
 
-## Expanding the ESLint configuration
+### 📦 CRUD de Productos con MockAPI
+- Creación, edición y eliminación de productos.
+- Validaciones en formularios (campos obligatorios, descripciones mínimas, etc).
+- Modal de confirmación para eliminar productos.
+- Manejo de errores y estados de carga al consumir la API.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎨 Diseño y Experiencia de Usuario
+- Interfaz responsive usando Bootstrap y styled-components.
+- Iconografía mediante `react-icons`.
+- Notificaciones con `React Toastify`.
+- Accesibilidad y SEO básico mediante `React Helmet`.
+
+### 🔍 Búsqueda y Paginación
+- Filtro por nombre o categoría en tiempo real.
+- Sistema de paginación para navegar por el catálogo.
+
+## 📁 Instalación
+
+Cloná el repositorio y ejecutá los siguientes comandos:
+
+git clone https://github.com/Juan-Celerier/TalentoTech.git
+cd TalentoTech
+npm install
+npm start
