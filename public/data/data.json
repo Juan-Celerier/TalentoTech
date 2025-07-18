@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cien Años de Soledad",
+    "precio": 15.0,
+    "stock": 20,
+    "imagen": "https://covers.openlibrary.org/b/id/8771281-L.jpg",
+    "categoria": "clásico",
+    "descripcion": "La saga multigeneracional de la familia Buendía en el mítico pueblo de Macondo, mezcla de realismo mágico y destino."
+  },
+  {
+    "id": 2,
+    "nombre": "1984",
+    "precio": 12.5,
+    "stock": 18,
+    "imagen": "https://covers.openlibrary.org/b/id/7222246-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Distopía aterradora donde un Estado totalitario vigila y controla cada pensamiento de sus ciudadanos."
+  },
+  {
+    "id": 3,
+    "nombre": "El Principito",
+    "precio": 9.0,
+    "stock": 30,
+    "imagen": "https://covers.openlibrary.org/b/id/10594758-L.jpg",
+    "categoria": "juvenil",
+    "descripcion": "Un pequeño príncipe viaja por planetas y descubre lecciones sobre la vida, la amistad y el amor."
+  },
+  {
+    "id": 4,
+    "nombre": "Sapiens",
+    "precio": 20.0,
+    "stock": 10,
+    "imagen": "https://covers.openlibrary.org/b/id/8311830-L.jpg",
+    "categoria": "no ficción",
+    "descripcion": "Historia breve de la humanidad, desde los primeros Homo sapiens hasta la era moderna, con reflexiones profundas."
+  },
+  {
+    "id": 5,
+    "nombre": "Fahrenheit 451",
+    "precio": 11.0,
+    "stock": 15,
+    "imagen": "https://covers.openlibrary.org/b/id/9250782-L.jpg",
+    "categoria": "ciencia ficción",
+    "descripcion": "Sociedad en la que los libros están prohibidos y los bomberos queman cualquier texto descubierto."
+  },
+  {
+    "id": 6,
+    "nombre": "Orgullo y Prejuicio",
+    "precio": 10.5,
+    "stock": 22,
+    "imagen": "https://covers.openlibrary.org/b/id/8091016-L.jpg",
+    "categoria": "clásico",
+    "descripcion": "Romance y crítica social en la Inglaterra del siglo XIX, entre la orgullosa Elizabeth Bennet y el señor Darcy."
+  },
+  {
+    "id": 7,
+    "nombre": "Harry Potter y la Piedra Filosofal",
+    "precio": 18.0,
+    "stock": 25,
+    "imagen": "https://covers.openlibrary.org/b/id/7984916-L.jpg",
+    "categoria": "juvenil",
+    "descripcion": "Primera aventura del joven mago Harry Potter en Hogwarts, donde descubre la amistad y la magia."
+  },
+  {
+    "id": 8,
+    "nombre": "Crónica de una Muerte Anunciada",
+    "precio": 13.0,
+    "stock": 14,
+    "imagen": "https://covers.openlibrary.org/b/id/8231851-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Relato periodístico-novelado sobre el asesinato anunciado de Santiago Nasar, lleno de tensión y destinos sellados."
+  },
+  {
+    "id": 9,
+    "nombre": "El Hobbit",
+    "precio": 17.0,
+    "stock": 19,
+    "imagen": "https://covers.openlibrary.org/b/id/6979861-L.jpg",
+    "categoria": "ciencia ficción",
+    "descripcion": "Bilbo Bolsón vive una inolvidable aventura con enanos y dragones para recuperar un tesoro perdido."
+  },
+  {
+    "id": 10,
+    "nombre": "La Odisea",
+    "precio": 14.0,
+    "stock": 12,
+    "imagen": "https://covers.openlibrary.org/b/id/8162732-L.jpg",
+    "categoria": "clásico",
+    "descripcion": "Épica griega que narra el largo y peligroso viaje de Ulises para regresar a Ítaca tras la guerra de Troya."
+  },
+  {
+    "id": 11,
+    "nombre": "Los Juegos del Hambre",
+    "precio": 15.0,
+    "stock": 21,
+    "imagen": "https://covers.openlibrary.org/b/id/8312526-L.jpg",
+    "categoria": "juvenil",
+    "descripcion": "Katniss Everdeen lucha por sobrevivir en un reality brutal controlado por un régimen opresor."
+  },
+  {
+    "id": 12,
+    "nombre": "El Código Da Vinci",
+    "precio": 16.0,
+    "stock": 17,
+    "imagen": "https://covers.openlibrary.org/b/id/8231471-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Thriller que mezcla arte, religión y secretos ocultos mientras Robert Langdon resuelve un enigma histórico."
+  },
+  {
+    "id": 13,
+    "nombre": "El Alquimista",
+    "precio": 13.5,
+    "stock": 20,
+    "imagen": "https://covers.openlibrary.org/b/id/8754537-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Simbólica odisea espiritual de Santiago en busca de su 'leyenda personal' y el verdadero tesoro."
+  },
+  {
+    "id": 14,
+    "nombre": "Ensayo sobre la ceguera",
+    "precio": 14.5,
+    "stock": 18,
+    "imagen": "https://covers.openlibrary.org/b/id/10301453-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Distopía que explora el caos y la solidaridad humana luego de una epidemia de ceguera blanca."
+  },
+  {
+    "id": 15,
+    "nombre": "It",
+    "precio": 22.0,
+    "stock": 9,
+    "imagen": "https://covers.openlibrary.org/b/id/7984917-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Novela de terror que sigue a un grupo de niños enfrentando a un ser aterrador en Derry."
+  },
+  {
+    "id": 16,
+    "nombre": "Matar a un Ruiseñor",
+    "precio": 13.0,
+    "stock": 15,
+    "imagen": "https://covers.openlibrary.org/b/id/9871973-L.jpg",
+    "categoria": "clásico",
+    "descripcion": "Historia sobre racismo y moral en el sur de EE. UU., contada a través de los ojos de Scout Finch."
+  },
+  {
+    "id": 17,
+    "nombre": "La Sombra del Viento",
+    "precio": 17.5,
+    "stock": 10,
+    "imagen": "https://covers.openlibrary.org/b/id/8372241-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Intriga literaria en la Barcelona de posguerra, secretos entre libros perdidos y pasiones ocultas."
+  },
+  {
+    "id": 18,
+    "nombre": "Don Quijote de la Mancha",
+    "precio": 19.0,
+    "stock": 13,
+    "imagen": "https://covers.openlibrary.org/b/id/7897302-L.jpg",
+    "categoria": "clásico",
+    "descripcion": "Las aventuras del ingenioso hidalgo y su fiel escudero Sancho, reflejo de idealismo y locura."
+  },
+  {
+    "id": 19,
+    "nombre": "Las Aventuras de Sherlock Holmes",
+    "precio": 12.0,
+    "stock": 20,
+    "imagen": "https://covers.openlibrary.org/b/id/8232351-L.jpg",
+    "categoria": "clásico",
+    "descripcion": "Colección de casos del famoso detective y su compañero Watson en la Londres victoriana."
+  },
+  {
+    "id": 20,
+    "nombre": "La Metamorfosis",
+    "precio": 10.0,
+    "stock": 22,
+    "imagen": "https://covers.openlibrary.org/b/id/10301485-L.jpg",
+    "categoria": "clásico",
+    "descripcion": "Gregorio Samsa despierta convertido en un insecto gigante y enfrenta el rechazo de su propia familia."
+  },
+  {
+    "id": 21,
+    "nombre": "Frankenstein",
+    "precio": 11.0,
+    "stock": 18,
+    "imagen": "https://covers.openlibrary.org/b/id/8226191-L.jpg",
+    "categoria": "clásico",
+    "descripcion": "Víctor Frankenstein crea un ser a partir de restos humanos, desencadenando tragedia y reflexión moral."
+  },
+  {
+    "id": 22,
+    "nombre": "Drácula",
+    "precio": 12.5,
+    "stock": 16,
+    "imagen": "https://covers.openlibrary.org/b/id/8169807-L.jpg",
+    "categoria": "clásico",
+    "descripcion": "El conde Drácula llega a Inglaterra para expandir su reinado vampírico, desatando el horror gótico."
+  },
+  {
+    "id": 23,
+    "nombre": "El Nombre del Viento",
+    "precio": 21.0,
+    "stock": 14,
+    "imagen": "https://covers.openlibrary.org/b/id/8760789-L.jpg",
+    "categoria": "ciencia ficción",
+    "descripcion": "Crónica de Kvothe, músico y mago, narrando su juventud y épica búsqueda de venganza."
+  },
+  {
+    "id": 24,
+    "nombre": "El Silmarillion",
+    "precio": 19.5,
+    "stock": 11,
+    "imagen": "https://covers.openlibrary.org/b/id/8232712-L.jpg",
+    "categoria": "ciencia ficción",
+    "descripcion": "Mitología del universo de Tolkien, origen de los elfos, hombres y el poder de los Silmarils."
+  },
+  {
+    "id": 25,
+    "nombre": "El Diario de Ana Frank",
+    "precio": 11.0,
+    "stock": 28,
+    "imagen": "https://covers.openlibrary.org/b/id/10910559-L.jpg",
+    "categoria": "no ficción",
+    "descripcion": "Testimonio real de una adolescente judía escondida durante la ocupación nazi en Ámsterdam."
+  },
+  {
+    "id": 26,
+    "nombre": "La Tregua",
+    "precio": 10.5,
+    "stock": 23,
+    "imagen": "https://covers.openlibrary.org/b/id/8754396-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Diario de un viudo que encuentra una segunda oportunidad en el amor y la rutina monótona de Buenos Aires."
+  },
+  {
+    "id": 27,
+    "nombre": "Rebelión en la Granja",
+    "precio": 9.5,
+    "stock": 32,
+    "imagen": "https://covers.openlibrary.org/b/id/8232646-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Fábula satírica donde los animales de una granja derrocan a los humanos, reflejo de revoluciones reales."
+  },
+  {
+    "id": 28,
+    "nombre": "Los Miserables",
+    "precio": 25.0,
+    "stock": 8,
+    "imagen": "https://covers.openlibrary.org/b/id/8232716-L.jpg",
+    "categoria": "clásico",
+    "descripcion": "Épica historia de redención, justicia y amor en la Francia del siglo XIX, centrada en Jean Valjean."
+  },
+  {
+    "id": 29,
+    "nombre": "Rayuela",
+    "precio": 17.0,
+    "stock": 14,
+    "imagen": "https://covers.openlibrary.org/b/id/8754388-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Novela experimental de Cortázar que invita al lector a recorrerla en múltiples secuencias."
+  },
+  {
+    "id": 30,
+    "nombre": "El Amor en los Tiempos del Cólera",
+    "precio": 15.0,
+    "stock": 17,
+    "imagen": "https://covers.openlibrary.org/b/id/8231871-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Historia de un amor persistente y platónico que sobrevive décadas en el Caribe."
+  },
+  {
+    "id": 31,
+    "nombre": "Los Pilares de la Tierra",
+    "precio": 20.5,
+    "stock": 11,
+    "imagen": "https://covers.openlibrary.org/b/id/8372720-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Novela histórica en la Edad Media europea, centrada en la construcción de una catedral."
+  },
+  {
+    "id": 32,
+    "nombre": "Tokio Blues",
+    "precio": 14.0,
+    "stock": 19,
+    "imagen": "https://covers.openlibrary.org/b/id/8231522-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "También conocido como 'Norwegian Wood', explora amor y pérdida en el Tokio de los 60."
+  },
+  {
+    "id": 33,
+    "nombre": "La Ladrona de Libros",
+    "precio": 15.0,
+    "stock": 13,
+    "imagen": "https://covers.openlibrary.org/b/id/8232521-L.jpg",
+    "categoria": "juvenil",
+    "descripcion": "Durante la Segunda Guerra Mundial, una niña encuentra consuelo robando libros y compartiéndolos."
+  },
+  {
+    "id": 34,
+    "nombre": "Ready Player One",
+    "precio": 18.0,
+    "stock": 15,
+    "imagen": "https://covers.openlibrary.org/b/id/8311852-L.jpg",
+    "categoria": "ciencia ficción",
+    "descripcion": "Competencia en un mundo virtual lleno de nostalgia ochentera para ganar un gran premio."
+  },
+  {
+    "id": 35,
+    "nombre": "Bajo la Misma Estrella",
+    "precio": 14.5,
+    "stock": 18,
+    "imagen": "https://covers.openlibrary.org/b/id/8372480-L.jpg",
+    "categoria": "juvenil",
+    "descripcion": "Historia de amor entre dos adolescentes enfermos de cáncer, emotiva y profunda."
+  },
+  {
+    "id": 36,
+    "nombre": "Una Breve Historia de Casi Todo",
+    "precio": 16.5,
+    "stock": 10,
+    "imagen": "https://covers.openlibrary.org/b/id/8754311-L.jpg",
+    "categoria": "no ficción",
+    "descripcion": "Divulgación científica accesible que explica el origen del universo, la Tierra y la vida."
+  },
+  {
+    "id": 37,
+    "nombre": "Homo Deus",
+    "precio": 21.5,
+    "stock": 8,
+    "imagen": "https://covers.openlibrary.org/b/id/8754316-L.jpg",
+    "categoria": "no ficción",
+    "descripcion": "Exploración del futuro de la humanidad y cómo la tecnología redefine nuestra especie."
+  },
+  {
+    "id": 38,
+    "nombre": "Breves respuestas a las grandes preguntas",
+    "precio": 19.0,
+    "stock": 12,
+    "imagen": "https://covers.openlibrary.org/b/id/8754371-L.jpg",
+    "categoria": "no ficción",
+    "descripcion": "Stephen Hawking responde preguntas universales sobre el cosmos, la vida y Dios."
+  },
+  {
+    "id": 39,
+    "nombre": "Cosmos",
+    "precio": 22.0,
+    "stock": 9,
+    "imagen": "https://covers.openlibrary.org/b/id/8754365-L.jpg",
+    "categoria": "no ficción",
+    "descripcion": "Viaje cósmico que mezcla ciencia, historia y filosofía, de la mano de Carl Sagan."
+  },
+  {
+    "id": 40,
+    "nombre": "El Mundo de Sofía",
+    "precio": 15.0,
+    "stock": 20,
+    "imagen": "https://covers.openlibrary.org/b/id/8754391-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Novela interactiva sobre la historia de la filosofía, contada a través de cartas a una adolescente."
+  },
+  {
+    "id": 41,
+    "nombre": "Yo Robot",
+    "precio": 13.5,
+    "stock": 19,
+    "imagen": "https://covers.openlibrary.org/b/id/8754361-L.jpg",
+    "categoria": "ciencia ficción",
+    "descripcion": "Colección de relatos sobre robots y las Tres Leyes de la Robótica, con dilemas éticos."
+  },
+  {
+    "id": 42,
+    "nombre": "La Carretera",
+    "precio": 14.0,
+    "stock": 17,
+    "imagen": "https://covers.openlibrary.org/b/id/8754376-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Padre e hijo atraviesan un mundo postapocalíptico, en un viaje de supervivencia y amor."
+  },
+  {
+    "id": 43,
+    "nombre": "Los hombres me explican cosas",
+    "precio": 12.5,
+    "stock": 22,
+    "imagen": "https://covers.openlibrary.org/b/id/8754381-L.jpg",
+    "categoria": "no ficción",
+    "descripcion": "Ensayos feministas que desmontan micromachismos y hablan sobre poder y visibilización."
+  },
+  {
+    "id": 44,
+    "nombre": "Mujer en Punto Cero",
+    "precio": 11.0,
+    "stock": 26,
+    "imagen": "https://covers.openlibrary.org/b/id/8754379-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Historia de una mujer presa en Egipto que relata su vida y sufrimiento con una voz poderosa."
+  },
+  {
+    "id": 45,
+    "nombre": "Hambre",
+    "precio": 12.0,
+    "stock": 23,
+    "imagen": "https://covers.openlibrary.org/b/id/8754367-L.jpg",
+    "categoria": "no ficción",
+    "descripcion": "Reflexión del periodista Knut Hamsun sobre la miseria y la soledad urbana en Oslo."
+  },
+  {
+    "id": 46,
+    "nombre": "Una habitación propia",
+    "precio": 13.0,
+    "stock": 25,
+    "imagen": "https://covers.openlibrary.org/b/id/8754354-L.jpg",
+    "categoria": "clásico",
+    "descripcion": "Ensayo de Virginia Woolf sobre la importancia de la independencia económica y creativa de la mujer."
+  },
+  {
+    "id": 47,
+    "nombre": "Trilogía de Nueva York",
+    "precio": 14.5,
+    "stock": 14,
+    "imagen": "https://covers.openlibrary.org/b/id/8754351-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Tres relatos cortos que capturan momentos emblemáticos en la vida neoyorquina."
+  },
+  {
+    "id": 48,
+    "nombre": "Un Mundo Feliz",
+    "precio": 15.5,
+    "stock": 16,
+    "imagen": "https://covers.openlibrary.org/b/id/8754349-L.jpg",
+    "categoria": "ciencia ficción",
+    "descripcion": "Distopía sobre una sociedad controlada genéticamente y emocionalmente para mantener la paz estrecha."
+  },
+  {
+    "id": 49,
+    "nombre": "La insoportable levedad del ser",
+    "precio": 16.0,
+    "stock": 12,
+    "imagen": "https://covers.openlibrary.org/b/id/8754346-L.jpg",
+    "categoria": "ficción",
+    "descripcion": "Reflexión filosófica sobre amor, libertad y destino ambientada en la Checoslovaquia de la Primavera de Praga."
+  },
+  {
+    "id": 50,
+    "nombre": "Ray Bradbury: Cuentos Completos",
+    "precio": 24.0,
+    "stock": 7,
+    "imagen": "https://covers.openlibrary.org/b/id/8754342-L.jpg",
+    "categoria": "ciencia ficción",
+    "descripcion": "Antología con lo mejor de Bradbury: desde lo cotidiano hasta lo surreal, lleno de imaginación y sensibilidad."
+  }
+]

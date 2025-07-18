@@ -1,0 +1,7 @@
+@media (min-width: 1024px) {
+    .fixed-width-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  

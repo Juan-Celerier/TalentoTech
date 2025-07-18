@@ -1,0 +1,119 @@
+.producto-card {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  border-radius: var(--border-radius-cards);
+  padding: var(--padding-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--max-width-card);
+  width: 100%;
+  margin-bottom: 50px;
+  margin-left: 8px;
+  margin-right: 8px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  text-align: center;
+}
+
+.producto-card:hover {
+  box-shadow: 0 12px 30px var(--color-sombra-hover);
+  transform: translateY(-5px);
+}
+
+.producto-imagen {
+  width: 100%;
+  max-width: var(--max-width-imagen);
+  height: var(--imagen-height);
+  object-fit: contain;
+  border-radius: 12px;
+  margin-bottom: var(--margin-bottom-imagen);
+  background-color: var(--color-fondo-imagen);
+  box-shadow: 0 2px 8px var(--color-sombra-hover);
+}
+
+.producto-nombre {
+  font-size: var(--font-size-nombre);
+  font-weight: 600;
+  margin-bottom: var(--margin-bottom-nombre);
+  color: var(--color-texto);
+}
+
+.producto-precio {
+  font-size: var(--font-size-precio);
+  font-weight: 700;
+  color: var(--color-verde);
+  margin: 0;
+}
+
+.producto-stock {
+  font-size: var(--font-size-stock);
+  color: var(--color-texto-secundario);
+  margin: 6px 0 var(--margin-bottom-stock) 0;
+}
+
+.producto-cantidadContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-cantidad-container);
+  margin-bottom: var(--margin-bottom-cantidad-container);
+}
+
+.producto-qtyButton {
+  background-color: var(--color-boton-fondo);
+  border: none;
+  color: var(--color-boton-texto);
+  font-weight: 700;
+  font-size: var(--btn-qty-font-size);
+  width: var(--btn-qty-width);
+  height: var(--btn-qty-height);
+  border-radius: var(--border-radius-botones);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.producto-qtyButton:hover {
+  background-color: var(--color-boton-fondo-hover);
+}
+
+.producto-cantidad {
+  font-size: var(--font-size-cantidad);
+  min-width: 40px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--color-texto);
+}
+
+.producto-agregar {
+  background-color: var(--color-boton-fondo);
+  border: none;
+  color: var(--color-boton-texto);
+  font-weight: 700;
+  padding: 12px 0;
+  border-radius: var(--border-radius-botones);
+  cursor: pointer;
+  width: 100%;
+  font-size: var(--font-size-boton);
+  transition: background-color 0.3s ease;
+}
+
+.producto-agregar:hover {
+  background-color: var(--color-boton-fondo-hover);
+}
+
+.producto-link {
+  display: block;
+  margin-top: var(--margin-top-link);
+  font-size: 0.9rem;
+  color: var(--color-verde);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.producto-link:hover {
+  text-decoration: underline;
+}

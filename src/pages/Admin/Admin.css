@@ -1,0 +1,159 @@
+:root {
+  --color-verde: #4ad994;
+  --color-verde-hover: #3bb07d;
+  --color-bg-admin: rgba(31, 31, 31, 0.9);
+  --color-secundario: rgba(46, 53, 50, 0.85);
+  --color-secundario-oscuro: rgba(30, 30, 30, 0.8);
+
+  --color-texto: #e0d8cc;
+  --color-texto-secundario: #a3998f;
+  --color-blanco: #ffffff;
+
+  --base-font: "Inter", sans-serif;
+  --font-xlarge: 3rem;
+  --font-medium: 1.8rem;
+  --font-small: 1rem;
+
+  --spacing-24: 2.4rem;
+  --spacing-16: 1.6rem;
+  --spacing-8: 0.8rem;
+}
+
+.container-fluid {
+  background-color: var(--dark-bg-solid);
+  color: var(--color-texto);
+  font-family: var(--base-font);
+  width: 100%;
+}
+
+.admin-title {
+  font-size: var(--font-xlarge);
+  color: var(--color-verde);
+  text-align: center;
+}
+
+.admin-btn-toggle {
+  background-color: var(--color-verde);
+  color: var(--color-boton-texto);
+  border: none;
+  padding: var(--spacing-8) var(--spacing-16);
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-btn-toggle:hover {
+  background-color: var(--color-verde-hover);
+}
+
+.admin-input-busqueda {
+  background-color: var(--secondary-900);
+  color: var(--color-texto);
+  border: 1px solid var(--color-texto-secundario);
+  border-radius: 4px;
+  padding: var(--spacing-8);
+}
+
+.admin-input-busqueda::placeholder {
+  color: var(--color-texto);
+  opacity: 0.6;
+}
+
+.admin-card-custom {
+  background-color: var(--dark-900);
+  border: 1px solid var(--color-texto-secundario);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px var(--color-verde-hover);
+  transition: box-shadow 0.3s ease;
+  max-height: 260px;
+  max-width: 390px;
+  margin-left: 195px;
+  font-size: 0.85rem;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.admin-card-img {
+  height: 130px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.admin-card-custom:hover {
+  box-shadow: 0 6px 12px var(--color-verde-hover);
+}
+
+.admin-btn-editar,
+.admin-btn-eliminar {
+  font-size: 0.9rem;
+  padding: var(--spacing-8) var(--spacing-16);
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  color: var(--color-boton-texto);
+}
+
+.admin-btn-editar {
+  background-color: var(--color-verde);
+}
+
+.admin-btn-editar:hover {
+  background-color: var(--color-verde-hover);
+  transform: scale(1.05);
+}
+
+.admin-btn-eliminar {
+  background-color: #b33939;
+}
+
+.admin-btn-eliminar:hover {
+  background-color: #892222;
+  transform: scale(1.05);
+}
+
+.admin-paginacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-16);
+  margin-top: var(--spacing-24);
+  font-family: var(--base-font);
+}
+
+.admin-paginacion button {
+  background-color: var(--secondary-900);
+  color: var(--color-boton-texto);
+  border: none;
+  padding: var(--spacing-8) var(--spacing-16);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: var(--font-small);
+  min-width: 40px;
+}
+
+.admin-paginacion button:hover:not(:disabled) {
+  background-color: var(--color-verde-hover);
+  transform: scale(1.05);
+}
+
+.admin-paginacion button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.card {
+  background-color: var(--dark-900) !important;
+  color: var(--color-boton-texto) !important;
+  border: none !important;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}

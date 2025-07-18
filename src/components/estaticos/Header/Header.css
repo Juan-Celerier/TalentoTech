@@ -1,0 +1,189 @@
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1900px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .navbar__header {
+    background-color: var(--secondary-solid);
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .logo img {
+    height: 90px;
+    object-fit: contain;
+    margin-left: 5px;
+  }
+  
+  
+  .navbar__ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  
+  .navbar__ul > li {
+    list-style: none;
+  }
+  
+  .navbar__ul li a,
+  nav ul li a.link {
+    display: block;
+    text-decoration: none;
+    color: var(--light-font-solid);
+    padding: var(--spacing-8);
+    margin: 0 var(--spacing-12);
+    font-size: var(--font-medium);
+    font-weight: 500;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease;
+  }
+  
+  .navbar__ul li a:hover,
+  nav ul li a.link:hover {
+    background-color: var(--primary-solid);
+    color: #60a5fa;
+  }
+  
+  .active,
+  .active-link {
+    background-color: var(--primary-solid);
+    color: #60a5fa;
+    border-radius: 4px;
+  }
+  
+  /* ========== MENU HAMBURGUESA ========== */
+  .navbar__menu {
+    display: none;
+    position: absolute;
+    top: 2.7rem;
+    right: 1.8rem;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 48px;
+    height: 43px;
+    cursor: pointer;
+  }
+  
+  .navbar-menu__span {
+    height: 7px;
+    width: 100%;
+    background-color: var(--light-font-solid);
+    border-radius: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .navbar__menu:hover > .navbar-menu__span {
+    background-color: #d9d9d9;
+  }
+  
+  .navbar__container-ul-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar__container-ul-form.open {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .btnCart {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.3s ease;
+  }
+  .btnCart:hover {
+    transform: scale(1.1);
+    color: #60a5fa;
+  }
+  .fa-cart-shopping {
+    font-size: 1.5rem;
+    color: red;
+  }
+  .fa-trash {
+    color: #93c5fd;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  .fa-trash:hover {
+    color: #60a5fa;
+  }
+  
+
+  .navbar__form {
+    font-size: var(--font-xsmall);
+    display: flex;
+    align-items: center;
+    width: 30%;
+    gap: 10px;
+  }
+  .navbar__input {
+    height: 40px;
+    border-radius: 10px;
+    font-size: var(--font-small);
+    padding-left: 10px;
+    width: 100%;
+  }
+  .navbar-form__button {
+    text-decoration: none;
+    color: var(--light-font-solid);
+    padding: var(--spacing-4);
+    background-color: var(--dark-solid);
+    transition: background-color 0.3s ease-in-out;
+    font-size: var(--font-medium);
+    border-radius: 10px;
+  }
+  .navbar-form__button:hover {
+    background-color: var(--dark-bg-solid);
+  }
+  
+
+  @media (max-width: 800px) {
+    .navbar__menu {
+      display: flex;
+    }
+    .navbar {
+      flex-direction: column;
+      align-items: start;
+    }
+    .navbar__ul {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+    }
+    .navbar__ul li {
+      width: 70%;
+      margin: 0.2rem 0.5rem;
+    }
+    .navbar__container-ul-form {
+      display: none;
+      width: 100%;
+      margin-bottom: 0.25rem;
+      flex-direction: column;
+    }
+    .navbar__container-ul-form.open {
+      display: flex;
+    }
+    .navbar__form {
+      width: 100%;
+      margin-left: var(--spacing-24);
+    }
+    .navbar__input {
+      width: 50%;
+    }
+  }
+  

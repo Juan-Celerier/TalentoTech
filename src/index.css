@@ -1,0 +1,89 @@
+:root {
+  --primary-solid: #006c3b;
+  --primary-900: #dfeee6;
+  --primary-500: rgba(0, 100, 59, 0.4);
+  --primary-300: rgba(87, 92, 88, 0.3);
+
+  --secondary-solid: #6c757d;
+  --secondary-900: rgba(46, 53, 50, 0.9);
+  --secondary-500: rgba(46, 53, 50, 0.5);
+  --secondary-300: #dee2e6;
+
+  --dark-solid: #1f1f1f;
+  --dark-900: rgba(31, 31, 31, 0.9);
+  --dark-500: rgba(31, 31, 31, 0.5);
+  --dark-300: rgba(31, 31, 31, 0.3);
+
+  --color-primary: #2e3532;
+  --color-secondary: #cdeee0;
+
+  --color-verde: #4ad994;
+  --color-verde-hover: #3bb07d;
+  --color-boton-fondo: #5a3e36;
+  --color-boton-fondo-hover: #432f28;
+  --color-boton-texto: #f0e6dc;
+
+  --dark-bg-solid: #30343f;
+  --light-bg-solid: #fafaff;
+  --light-font-solid: #0c0c0c;
+
+  --color-fondo: #1a2e28;
+  --color-fondo-imagen: #2c2a27;
+  --color-texto: #e0d8cc;
+  --color-texto-secundario: #a3998f;
+  --text-color-light: #fff;
+
+  --banner-overlay: rgba(0, 0, 0, 0.45);
+
+  --color-sombra: rgba(0, 0, 0, 0.8);
+  --color-sombra-hover: rgba(0, 0, 0, 1);
+
+  --spacing-4: 0.4rem;
+  --spacing-8: 0.8rem;
+  --spacing-12: 0.75rem;
+  --spacing-16: 1rem;
+  --spacing-20: 1.25rem;
+  --spacing-24: 1.5rem;
+  --spacing-28: 2.8rem;
+  --spacing-36: 3.6rem;
+  --spacing-68: 6.8rem;
+  --spacing-128: 12.8rem;
+
+  --font-size-md: 1.2rem;
+
+  --font-display: 4.6em;
+  --font-jumbo: 3.8em;
+  --font-xlarge: 3em;
+  --font-large: 2.4em;
+  --font-medium: 1.8em;
+  --font-small: 0.875rem;
+  --font-xsmall: 1.4em;
+
+  --base-font: "Inter", sans-serif;
+  --alternative-font: "Raleway", sans-serif;
+
+  --border-radius-cards: 20px;
+  --border-radius-botones: 12px;
+  --padding-card: 28px;
+
+  --btn-qty-width: 84px;
+  --btn-qty-height: 56px;
+  --btn-qty-font-size: 2rem;
+
+  --font-size-nombre: 1.3rem;
+  --font-size-precio: 1.15rem;
+  --font-size-stock: 0.95rem;
+  --font-size-cantidad: 1.3rem;
+  --font-size-boton: 1rem;
+
+  --gap-cantidad-container: 16px;
+  --margin-bottom-cantidad-container: 20px;
+  --margin-bottom-imagen: 20px;
+  --margin-bottom-nombre: 10px;
+  --margin-bottom-stock: 16px;
+  --margin-top-link: 18px;
+
+  --max-width-card: 320px;
+  --max-width-imagen: 220px;
+  --imagen-height: 280px;
+}
